@@ -9,7 +9,8 @@ const Header = () => {
             <div className="center-desk">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="../public/assets/images/Logo.png" alt="LOGO-ENSEMDOCS" />
+                  {/* Use process.env.PUBLIC_URL to construct the correct path */}
+                  <img src={process.env.PUBLIC_URL + "/assets/images/Logo.png"} alt="LOGO-ENSEMDOCS" />
                 </NavLink>
               </div>
             </div>
