@@ -1,6 +1,7 @@
 @media (min-width:1200px) and (max-width:1342px){
     .navigation.navbar-dark .navbar-nav .nav-link{
-        margin:0 16px
+        margin:0 16px;
+        font-size:14px
     }
     #banner1 a.carousel-control-prev{
         left:25%
