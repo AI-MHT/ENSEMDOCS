@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import {Link} from "react-router-dom"
 
 const Header = () => {
   return (
@@ -10,7 +9,7 @@ const Header = () => {
             <div className="center-desk">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="./assets/images/Logo.png" alt="LOGO-ENSEMDOCS" />
+                  <img src="../assets/images/Logo.png" alt="LOGO-ENSEMDOCS" />
                 </NavLink>
               </div>
             </div>
