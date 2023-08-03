@@ -2,7 +2,8 @@ import React from "react";
 import {Link} from "react-router-dom"
 import Header from "../components/Header"
 import Event from "../components/Event"
-
+import StudentFeed from "../components/StudentFeed";
+import Abouthome from "../components/Abouthome";
 
 const Home=()=>{
     return(
@@ -12,28 +13,47 @@ const Home=()=>{
            <div className="header">
               <div className="white_bg">
               <Header/>
-              <Event/>
+              <section className="banner_main">
+                  <div id="banner1" className="carousel slide" data-ride="carousel">
+                  <ol className="carousel-indicators">
+                          <li data-target="#banner1" data-slide-to="0" className="active"></li>
+                          <li data-target="#banner1" data-slide-to="1"></li>
+                  </ol>
+                  <div className="carousel-inner">
+                     <Event
+                        active={true}
+                        imageUrl={process.env.PUBLIC_URL + "/assets/images/ban_img.jpg"}
+                        altText="BAN"
+                        title="word from the founder of"
+                        subtitle="ENSEMDOCS"
+                        description="At ENSEM, we believe in the power of knowledge sharing and collaboration. Our website serves as a bridge between students, helping them showcase their achievements and experiences during their internships. By providing a space to share internship reports and CVs, we strive to create a supportive community where students can inspire one another, learn from each other's successes, and support their career successes, and support their career"
+                     />
+                     <Event
+                        active={false}
+                        imageUrl={process.env.PUBLIC_URL + "/assets/images/ban_img.jpg"}
+                        altText="BAN"
+                        title="Progress & Success"
+                        subtitle="c u r r e n c y"
+                        description="At ENSEM, we believe in the power of knowledge sharing and collaboration. Our website serves as a bridge between students, helping them showcase their achievements and experiences during their internships. By providing a space to share internship reports and CVs, we strive to create a supportive community where students can inspire one another, learn from each other's successes, and support their career successes, and support their career"
+                     />
+                  </div>
+                  <a className="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+                     <i className="fa fa-chevron-left" aria-hidden="true"></i>
+                  </a>
+                  <a className="carousel-control-next" href="#banner1" role="button" data-slide="next">
+                     <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                  </a>
+                  </div>
+               </section>
               </div>
            </div>
         </header>
-        <div className="about">
-           <div className="container">
-              <div className="row d_flex">
-                 <div className="col-md-12 col-lg-5">
-                    <div className="about_img">
-                       <figure><img src="assets/images/about.png" alt="ABOUT"/></figure>
-                    </div>
-                 </div>
-                 <div className="col-md-12 col-lg-7">
-                    <div className="titlepage">
-                       <h2> <span className="yellow">ABOUT US</span><br/>Welcome TO ENSEMDOCS</h2>
-                       <p>Our website is designed to connect students from ENSEM and beyond, enabling them to share their internship journey with fellow students, professionals, and potential employers. We understand the significance of internships in shaping a student's professional growth and the importance of access to valuable resources. Therefore, we have created this platform to make it easier for students to showcase their skills, projects, and accomplishments to a wider audience. </p>
-                       <Link className="read_more" to="#">Read More</Link>
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </div>
+        <Abouthome
+          imageUrl={"/assets/images/about.png"}
+          altText="ABOUT"
+          title="ABOUT US"
+          description="Our website is designed to connect students from ENSEM and beyond, enabling them to share their internship journey with fellow students, professionals, and potential employers. We understand the significance of internships in shaping a student's professional growth and the importance of access to valuable resources. Therefore, we have created this platform to make it easier for students to showcase their skills, projects, and accomplishments to a wider audience."
+        />
   
         <div className="subscribe">
            <div className="container">
@@ -63,42 +83,7 @@ const Home=()=>{
                  <li data-target="#testimoni" data-slide-to="1"></li>
               </ol>
               <div className="carousel-inner">
-                 <div className="carousel-item active">
-                    <div className="container">
-                       <div className="carousel-caption ">
-                          <div className="row">
-                             <div className="col-md-10 offset-md-1">
-                                <div className="test_box">
-                                   <i><img src="assets/images/test.png"  alt="STD-IMG"/></i>
-                                   <h3>name of student</h3><br/>
-                                   <p>comment. comment cvkjdnve
-                                    fvjeiuf
-                                    ciwfhw wejrewuff
-                                    ewfbuweof 
-                                    pijdo2d
-                                    ommentcommentcomment comment comment </p>
-                                </div>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
-                 <div className="carousel-item">
-                    <div className="container">
-                       <div className="carousel-caption">
-                          <div className="row">
-                             <div className="col-md-10 offset-md-1">
-                                <div className="test_box">
-                                   <i><img src="assets/images/test.png"  alt="STD-IMG"/></i>
-                                   <h3>name of student</h3>
-                                   <p>FeedbackFeedbackF 
-                                    regedbackFeedbackF  eedbackFeedbac kFeedbac kFeedb ackFee dbackFee dbackFeedb ackFeedb ackFeedba ckFeedb ackFeedba ckFeed backFeedback  </p>
-                                </div>
-                             </div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
+                 <StudentFeed/>
               </div>
               <Link className="carousel-control-prev" to="#testimoni" role="button" data-slide="prev">
               <i className="fa fa-chevron-left" aria-hidden="true"></i>
