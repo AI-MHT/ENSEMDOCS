@@ -148,14 +148,14 @@ button{
 .navigation.navbar-dark .navbar-nav .nav-link:focus::before,.navigation.navbar-dark .navbar-nav .nav-link:hover::before{
     position:relative;
     content:"";
-    background:#7d0056;
+    /* background:#7d0056;
     width:10px;
     height:10px;
     border-radius:10px;
     bottom:-29px;
     float:none;
     margin:0 auto;
-    display:flex
+    display:flex */
 }
 .navigation.navbar-dark .navbar-nav .active>.nav-link,.navigation.navbar-dark .navbar-nav .nav-link.active{
     color:#7d0056;
@@ -164,14 +164,14 @@ button{
 .navigation.navbar-dark .navbar-nav .active>.nav-link::before,.navigation.navbar-dark .navbar-nav .nav-link.active::before{
     position:relative;
     content:"";
-    background:#7d0056;
+    /* background:#7d0056;
     width:10px;
     height:10px;
     border-radius:10px;
     bottom:-29px;
     float:none;
     margin:0 auto;
-    display:flex
+    display:flex */
 }
 .navbar-expand-md .navbar-nav{
     padding-right:10px
