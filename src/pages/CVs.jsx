@@ -15,6 +15,7 @@ const CVs=()=>{
                                  <div className="col-md-12 col-lg-12">
                                     <div className="titlepage">
                                        <h2> <span className="yellow"></span><br/>Coming Soon !</h2>
+                                       <br/><br/><br/><br/><br/><br/><br/>
                                        
                                     </div>
                                  </div>
