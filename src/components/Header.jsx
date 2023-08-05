@@ -57,7 +57,6 @@ const Header = () => {
                     Contact Us
                   </NavLink>
                 </li>
-
               </ul>
             </div>
           </nav>
