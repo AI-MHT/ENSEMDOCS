@@ -2,6 +2,7 @@
     .navigation.navbar-dark .navbar-nav .nav-link{
         margin:0 16px;
         font-size:14px
+
     }
     #banner1 a.carousel-control-prev{
         left:25%
@@ -31,7 +32,7 @@
 }
 @media (min-width:768px) and (max-width:991px){
     .header{
-        padding:50px 50px
+        padding:50px 30px
     }
     .navigation.navbar-dark .navbar-nav .nav-link{
         margin:0 10px;
@@ -90,7 +91,7 @@
 }
 @media (min-width:575px) and (max-width:767px){
     .header{
-        padding:50px 50px
+        padding:18px 19px
     }
     .logo{
         width:166px
@@ -200,7 +201,7 @@
         float:right;
         display:inherit!important;
         padding:0;
-        width:100%;
+        width:63%;
         margin-top:-83px
     }
     .navigation .navbar-collapse{
