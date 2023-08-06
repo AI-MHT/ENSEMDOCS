@@ -7,17 +7,10 @@ import Gld from "./pages/Gld"
 import Error from "./pages/Error"
 import CVs from "./pages/CVs"
 import {Routes,Route} from 'react-router-dom'
-import ReactGA from 'react-ga'
-import React, { useEffect } from 'react';
-
-
-ReactGA.initialize('G-BGMCB3M3BR');
-
-
+import ReactGA from 'react-ga';
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+  ReactGA.initialize('G-32QL9DC11C');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
       <Routes>
