@@ -1,0 +1,232 @@
+@media (min-width:1200px) and (max-width:1342px){
+    .navigation.navbar-dark .navbar-nav .nav-link{
+        margin:0 16px;
+        font-size:14px
+
+    }
+    #banner1 a.carousel-control-prev{
+        left:25%
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .navigation.navbar-dark .navbar-nav .nav-link{
+        margin:0 9px;
+        font-size:15px
+    }
+    .text-bg h1{
+        font-size:56px
+    }
+    .text-bg span{
+        font-size:32px;
+        line-height:39px
+    }
+    #banner1 a.carousel-control-next{
+        left:37%
+    }
+    #banner1 a.carousel-control-prev{
+        left:30%
+    }
+    .titlepage h2{
+        font-size:38px
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .header{
+        padding:30px 30px
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link{
+        margin:0 10px;
+        font-size:11px
+    }
+    .text-bg h1{
+        font-size:70px;
+        line-height:63px;
+        padding-bottom:28px
+    }
+    #banner1 .carousel-control-next,#banner1 .carousel-control-prev{
+        top:100%
+    }
+    #banner1 a.carousel-control-next{
+        left:37%
+    }
+    #banner1 a.carousel-control-prev{
+        left:27%
+    }
+    .d_none{
+        display:none
+    }
+    .titlepage h2{
+        font-size:37px
+    }
+    .subscribe_main h3{
+        font-size:30px
+    }
+}
+@media (max-width:767px){
+    .navbar-toggler{
+        position:relative;
+        z-index:1
+    }
+    .navbar-collapse{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        padding:20px;
+        margin-top:10px;
+        background-color:#17094c;
+        z-index:999
+    }
+    .navbar-nav .nav-link{
+        padding:10px 0;
+        font-size:14px;
+        color:#fff
+    }
+    .navbar-toggler-icon{
+        background:url(../images/menu_icon.png);
+        background-repeat:no-repeat;
+        width:58px;
+        height:58px
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .header{
+        padding:18px 19px
+    }
+    .logo{
+        width:166px
+    }
+    .d_none{
+        display:none
+    }
+    .text-bg h1{
+        font-size:51px
+    }
+    .text-bg span{
+        font-size:33px
+    }
+    .text_img{
+        margin-top:20px
+    }
+    #banner1 .carousel-control-next,#banner1 .carousel-control-prev{
+        top:100%
+    }
+    #banner1 a.carousel-control-prev{
+        left:17%
+    }
+    .titlepage h2{
+        font-size:27px
+    }
+    .subscribe_main h3{
+        font-size:31px
+    }
+    .navigation.navbar{
+        float:right;
+        display:inherit!important;
+        padding:0;
+        width:100%;
+        padding-top:12px
+    }
+    .navigation .navbar-collapse{
+        background:#4c093a;
+        padding:20px;
+        margin-top:44px;
+        position:absolute;
+        width:100%;
+        margin-right:20px;
+        z-index:999
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link{
+        padding:10px 0;
+        color:#fff
+    }
+    .navigation.navbar-dark .navbar-toggler{
+        border:inherit;
+        float:right;
+        padding:0
+    }
+    .navigation.navbar-dark .navbar-toggler-icon{
+        background:url(../images/menu_icon.png);
+        background-repeat:no-repeat
+    }
+    .margin_bottom1{
+        margin-bottom:30px!important
+    }
+}
+#maintable td:nth-child(1),#maintable th:nth-child(1){
+    width:20%
+}
+#maintable td:nth-child(2),#maintable th:nth-child(2){
+    width:70%
+}
+#maintable td:nth-child(3),#maintable th:nth-child(3){
+    width:10%
+}
+@media (max-width:575px){
+    .header{
+        padding:13px 13px
+    }
+    .white_bg{
+        padding:40px 6px
+    }
+    .logo{
+        padding-bottom:6px;
+        float:left
+    }
+    .text-bg span{
+        font-size:20px;
+        line-height:40px
+    }
+    .text-bg h1{
+        font-size:32px;
+        line-height:38px
+    }
+    #banner1 .carousel-control-next,#banner1 .carousel-control-prev{
+        top:100%
+    }
+    #banner1 a.carousel-control-prev{
+        left:12%
+    }
+    .titlepage h2{
+        font-size:19px;
+        line-height:15px
+    }
+    .subscribe_main h3{
+        font-size:24px
+    }
+    .text_img{
+        margin-top:30px
+    }
+    .navigation.navbar{
+        float:right;
+        display:inherit!important;
+        padding:0;
+        width:63%;
+        margin-top:-64px
+    }
+    .navigation .navbar-collapse{
+        background:#4c093a;
+        padding:20px;
+        margin-top:67px;
+        position:absolute;
+        width:100%;
+        margin-right:20px;
+        z-index:999
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link{
+        padding:10px 0;
+        color:#fff
+    }
+    .navigation.navbar-dark .navbar-toggler{
+        float:right;
+        margin-right:2px;
+        border:inherit
+    }
+    .testimonial_box{
+        padding:0 19px 40px 20px
+    }
+    .navigation.navbar-dark .navbar-toggler-icon{
+        background:url(../images/menu_icon.png);
+        background-repeat:no-repeat
+    }
+}
