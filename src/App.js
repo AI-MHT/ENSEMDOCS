@@ -8,6 +8,7 @@ import Error from "./pages/Error"
 import CVs from "./pages/CVs"
 import {Routes,Route} from 'react-router-dom'
 
+
 function App() {
   return (
     <div className="App">
