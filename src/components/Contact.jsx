@@ -3,7 +3,7 @@ const Contact = () => {
       <section className="banner_main">
         <div className="ContactFormWidget">
           <div className="form">
-            <form action="https://formspree.io/f/xeqbqrvz" method="POST">
+            <form action="http://localhost:3000/" method="POST">
               <div className="formColum">
                 <div className="FormControl">
                   <input id="ContactName" name="name" placeholder="Name" type="text" required />
