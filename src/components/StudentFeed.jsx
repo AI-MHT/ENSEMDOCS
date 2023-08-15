@@ -1,47 +1,47 @@
 import React from "react";
 
 const StudentFeed = () => {
-  const imageUrl = process.env.PUBLIC_URL + "/assets/images/test.png";
+  // const imageUrl = process.env.PUBLIC_URL + "/assets/images/test.png";
 
   return (
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <div className="container">
-          <div className="carousel-caption">
-            <div className="row">
-              <div className="col-md-10 offset-md-1">
-                <div className="test_box">
-                  <i><img src={imageUrl} alt="STD-IMG" /></i>
-                  <h3>name of student</h3><br />
-                  <p>comment. comment cvkjdnve
-                    fvjeiuf
-                    ciwfhw wejrewuff
-                    ewfbuweof
-                    pijdo2d
-                    ommentcommentcomment comment comment </p>
-                </div>
+    <section className="testimonial text-center">
+      <div className="container">
+        <div className="heading white-heading">
+          Testimonial
+        </div>
+        <div id="testimonial4" className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+          <div className="carousel-inner" role="listbox">
+            <div className="carousel-item active">
+              <div className="testimonial4_slide">
+                <img src="https://ai-mht.github.io/Portfolio/assets/images/my-avatar.PNG" className="img-circle img-responsive" alt="Client 1" />
+                <p>Text Text Text Text Text Text text...</p>
+                <h4>Student 1</h4>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="testimonial4_slide">
+                <img src="https://ai-mht.github.io/Portfolio/assets/images/my-avatar.PNG" className="img-circle img-responsive" alt="Client 2" />
+                <p>Text Text Text Text Text text...</p>
+                <h4>Student 2</h4>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="testimonial4_slide">
+                <img src="https://ai-mht.github.io/Portfolio/assets/images/my-avatar.PNG" className="img-circle img-responsive" alt="Client 3" />
+                <p>test etest text...</p>
+                <h4>Student 3</h4>
               </div>
             </div>
           </div>
+          <a className="carousel-control-prev" href="#testimonial4" data-slide="prev">
+            <span className="carousel-control-prev-icon"></span>
+          </a>
+          <a className="carousel-control-next" href="#testimonial4" data-slide="next">
+            <span className="carousel-control-next-icon"></span>
+          </a>
         </div>
       </div>
-      <div className="carousel-item">
-        <div className="container">
-          <div className="carousel-caption">
-            <div className="row">
-              <div className="col-md-10 offset-md-1">
-                <div className="test_box">
-                  <i><img src={imageUrl} alt="STD-IMG" /></i>
-                  <h3>name of student</h3>
-                  <p>FeedbackFeedbackF
-                    regedbackFeedbackF  eedbackFeedbac kFeedbac kFeedb ackFee dbackFee dbackFeedb ackFeedb ackFeedba ckFeedb ackFeedba ckFeed backFeedback  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
