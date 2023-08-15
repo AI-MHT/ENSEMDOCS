@@ -3,7 +3,7 @@ const Contact = () => {
       <section className="banner_main">
         <div className="ContactFormWidget">
           <div className="form">
-            <form action="http://localhost:3000/" method="POST">
+            <form action="https://formspree.io/f/xeqbqrvz" method="POST">
               <div className="formColum">
                 <div className="FormControl">
                   <input id="ContactName" name="name" placeholder="Name" type="text" required />
@@ -12,7 +12,7 @@ const Contact = () => {
                 <textarea
                   id="ContactMessage"
                   name="message"
-                  placeholder="Please send us the link to the drive and make sure it is public"
+                  placeholder="Please send us the link to the drive and ensure that it is publicly accessible."
                   rows="4"
                 ></textarea>
                 <div className="FormControlBtn">
