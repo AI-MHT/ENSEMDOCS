@@ -202,12 +202,12 @@
         display:inherit!important;
         padding:0;
         width:63%;
-        margin-top:-64px
+        margin-top:-80px
     }
     .navigation .navbar-collapse{
         background:#4c093a;
-        padding:20px;
-        margin-top:67px;
+        padding:8px;
+        margin-top:4px;
         position:absolute;
         width:100%;
         margin-right:20px;
