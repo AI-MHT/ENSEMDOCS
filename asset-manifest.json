@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ENSEMDOCS/static/js/main.bc73c39e.js",
+    "main.js": "/ENSEMDOCS/static/js/main.31ef2a04.js",
     "index.html": "/ENSEMDOCS/index.html",
-    "main.bc73c39e.js.map": "/ENSEMDOCS/static/js/main.bc73c39e.js.map"
+    "main.31ef2a04.js.map": "/ENSEMDOCS/static/js/main.31ef2a04.js.map"
   },
   "entrypoints": [
-    "static/js/main.bc73c39e.js"
+    "static/js/main.31ef2a04.js"
   ]
 }
