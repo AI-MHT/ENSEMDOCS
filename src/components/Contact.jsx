@@ -12,7 +12,7 @@ const Contact = () => {
                 <textarea
                   id="ContactMessage"
                   name="message"
-                  placeholder="Please send us the link to the drive and make sure it is public"
+                  placeholder="Please send us the link to the drive and ensure that it is publicly accessible."
                   rows="4"
                 ></textarea>
                 <div className="FormControlBtn">

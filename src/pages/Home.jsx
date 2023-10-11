@@ -67,11 +67,16 @@ const Home=()=>{
            </div>
         </div>
      
+<<<<<<< HEAD
         
          <StudentFeed/>
              
               
         
+=======
+                 <StudentFeed/>
+
+>>>>>>> 794b57bd78aa3be2749f77c5fc715e9d31c0c8ea
        
      </div>
     )

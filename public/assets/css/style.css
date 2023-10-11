@@ -181,7 +181,11 @@ button{
 }
 .header{
     width:100%;
+<<<<<<< HEAD
     padding:38px 30px;
+=======
+    padding:30px 30px;
+>>>>>>> 794b57bd78aa3be2749f77c5fc715e9d31c0c8ea
     background:url(../images/ensemdoc.jpg);
     background-size:100% 100%;
     background-repeat:no-repeat
