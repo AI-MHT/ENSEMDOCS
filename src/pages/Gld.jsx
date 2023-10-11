@@ -1,58 +1,88 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import MUIDataTable from "mui-datatables";
+import React,  { useState } from "react";
 import Header from "../components/Header";
+import { ThemeProvider } from "@mui/material/styles";
+import { createTheme } from "@mui/material/styles";
+import { CacheProvider } from "@emotion/react";
+import createCache from "@emotion/cache";
+
+const muiCache = createCache({
+  key: "mui-datatables",
+  prepend: true
+});
 
 const Gld = () => {
+
+  const [responsive] = useState("vertical");
+  const [tableBodyHeight] = useState("400px");
+  const [tableBodyMaxHeight] = useState("");
+  const [downloadBtn] = useState(false);
+  const [printBtn] = useState(false);
+  const [viewColumnBtn] = useState(false);
+  const [filterBtn] = useState(false);
+
+  const columns = [
+    { name: "Name", options: { filterOptions: { fullWidth: true } } },
+    "Title",
+    "Location"
+  ];
+
+  const options = {
+    
+    download: downloadBtn,
+    print: printBtn,
+    viewColumns: viewColumnBtn,
+    filter: filterBtn,
+    filterType: "dropdown",
+    selectableRows: "none",
+    responsive,
+    tableBodyHeight,
+    searchOpen: true,
+    tableBodyMaxHeight,
+    onTableChange: (action, state) => {
+      console.log(action);
+      console.dir(state);
+    }
+  };
+
+  const data = [
+    ["Gabby George", "Business Analyst", "Minneapolis"],
+    [
+      "Aiden Lloyd",
+      "Business Consultant for an International Company and CEO of Tony's Burger Palace",
+      "Dallas"
+    ],
+    ["Jaden Collins", "Attorney", "Santa Ana"],
+    ["Franky Rees", "Business Analyst", "St. Petersburg"],
+    ["Aaren Rose", null, "Toledo"],
+    ["Johnny Jones", "Business Analyst", "St. Petersburg"],
+    ["Jimmy Johns", "Business Analyst", "Baltimore"],
+    ["Jack Jackson", "Business Analyst", "El Paso"],
+    ["Joe Jones", "Computer Programmer", "El Paso"],
+    ["Jacky Jackson", "Business Consultant", "Baltimore"],
+    ["Jo Jo", "Software Developer", "Washington DC"],
+    ["Donna Marie", "Business Manager", "Annapolis"]
+  ];
+ 
   return (
     <div className="main-layout">
       <header>
-        <div className="header">
-          <div className="white_bg">
-            <Header />
-            <section className="table-responsive">
-              <table
-                id="maintable"
-                className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 display compact cell-border"
-                cellSpacing="0"
-                width="100%"
-              >
-                <thead>
-                  <tr>
-                    <th>Author</th>
-                    <th>Report Title</th>
-                    <th>Filiere/Title</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <p className="cssFont_1">am happy</p>
-                    </td>
-                    <td>
-                      <p className="cssFont_2">
-                        Director deg dihd did didididid ididiidqew qdipojhiyga osqhigyudq dqogdygyv
-                      </p>
-                    </td>
-                    <td>
-                      <p className="cssFont_1">
-                        <Link to="https://docs.google.com/presentation/d/1i6BT0tioldmFYNhte4H8QneeNZna3emo/edit?usp=sharing&ouid=101826865887774610139&rtpof=true&sd=true">
-                          New York
-                        </Link>
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <th>Author</th>
-                    <th>Report Title</th>
-                    <th>Filiere/Title</th>
-                  </tr>
-                </tfoot>
-              </table>
-            </section>
-          </div>
-        </div>
+      <div className="header">
+      <div className="white_bg">
+      <Header/>
+      <CacheProvider value={muiCache}>
+      <ThemeProvider theme={createTheme()}>
+       
+        <MUIDataTable
+          title={"ACME Employee list"}
+          data={data}
+          columns={columns}
+          options={options}
+        />
+      </ThemeProvider>
+    </CacheProvider>
+      </div>
+      </div>
       </header>
     </div>
   );

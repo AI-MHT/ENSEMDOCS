@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+// import {Link} from "react-router-dom"
 import Header from "../components/Header"
 import Event from "../components/Event"
 import StudentFeed from "../components/StudentFeed";
@@ -67,32 +67,11 @@ const Home=()=>{
            </div>
         </div>
      
-        <div  className="testimonial">
-           <div className="container">
-              <div className="row">
-                 <div className="col-md-12 ">
-                    <div className="titlepage">
-                       <h2> Student Feedback </h2>
-                    </div>
-                 </div>
-              </div>
-           </div>
-           <div id="testimoni" className="carousel slide testimonial_Carousel " data-ride="carousel">
-              <ol className="carousel-indicators">
-                 <li data-target="#testimoni" data-slide-to="0" className="active"></li>
-                 <li data-target="#testimoni" data-slide-to="1"></li>
-              </ol>
-              <div className="carousel-inner">
-                 <StudentFeed/>
-              </div>
-              <Link className="carousel-control-prev" to="#testimoni" role="button" data-slide="prev">
-              <i className="fa fa-chevron-left" aria-hidden="true"></i>
-              </Link>
-              <Link className="carousel-control-next" to="#testimoni" role="button" data-slide="next">
-              <i className="fa fa-chevron-right" aria-hidden="true"></i>
-              </Link>
-           </div>
-        </div>
+        
+         <StudentFeed/>
+             
+              
+        
        
      </div>
     )
