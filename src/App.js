@@ -7,6 +7,7 @@ import Departement from "./pages/Departement";
 import ContactUs from "./pages/ContactUs";
 import Gld from "./pages/Gld";
 import Error from "./pages/Error";
+import { Route, Routes } from "react-router";
 
 function App() {
   ReactGA.initialize('G-32QL9DC11C');

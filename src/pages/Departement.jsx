@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header"
 import Block from "../components/block";
+import myImage from '../public/assets/images/electric.jpg';
 
 
 const Departement=()=>{
@@ -25,7 +26,7 @@ const Departement=()=>{
                           linkTo="/CVs"
                         />
                         <Block
-                          imageUrl="assets/images/electric.jpg"
+                          imageUrl={myImage}
                           altText="ELEC-LOGO"
                           title="genie electrique"
                           linkTo="/CVs"

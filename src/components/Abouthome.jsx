@@ -17,11 +17,7 @@ const Abouthome = ({ imageUrl, altText, title, description }) => {
             <div className="titlepage">
               <h2> <span className="yellow">{title}</span><br />Welcome TO ENSEMDOCS</h2>
               <p>{description}</p>
-<<<<<<< HEAD
               <Link className="read_more" to="/About">Read More</Link>
-=======
-              <Link className="read_more" to="/about">Read More</Link>
->>>>>>> 794b57bd78aa3be2749f77c5fc715e9d31c0c8ea
             </div>
           </div>
         </div>
