@@ -10,7 +10,7 @@ body {
 
 #notfound {
   position: relative;
-  height: 100vh;
+  height: 62vh;
 }
 
 #notfound .notfound {
@@ -42,7 +42,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 252px;
+  font-size: 182px;
   font-weight: 900;
   margin: 0px;
   color: #7d0056;
@@ -82,7 +82,7 @@ body {
     height: 200px;
   }
   .notfound .notfound-404 h1 {
-    font-size: 200px;
+    font-size: 160px;
   }
 }
 
@@ -91,11 +91,19 @@ body {
     height: 162px;
   }
   .notfound .notfound-404 h1 {
-    font-size: 162px;
+    font-size: 140px;
     height: 150px;
     line-height: 162px;
   }
   .notfound h2 {
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 366px) {
+  .notfound .notfound-404 {
+    height: 200px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
   }
 }

@@ -1,10 +1,24 @@
 import React from "react";
+import '../assets/css/bootstrap.min.css';
+import '../assets/css/header.css';
+
+import '../assets/css/style.css';
+import '../assets/css/stylec.css';
+
+import '../assets/css/footer.css';
+import '../assets/css/testimonial.css';
+
+
+
 // import {Link} from "react-router-dom"
 import Header from "../components/Header"
 import Event from "../components/Event"
 import StudentFeed from "../components/StudentFeed";
 import Abouthome from "../components/Abouthome";
 
+//import images
+import ban_img from "../assets/images/ban_img.jpg"
+import aboutus from "../assets/images/about.png"
 const Home=()=>{
     return(
       <div className="main-layout">
@@ -15,14 +29,11 @@ const Home=()=>{
               <Header/>
               <section className="banner_main">
                   <div id="banner1" className="carousel slide" data-ride="carousel">
-                  <ol className="carousel-indicators">
-                          <li data-target="#banner1" data-slide-to="0" className="active"></li>
-                          <li data-target="#banner1" data-slide-to="1"></li>
-                  </ol>
+                  
                   <div className="carousel-inner">
                      <Event
                         active={true}
-                        imageUrl={process.env.PUBLIC_URL + "/assets/images/ban_img.jpg"}
+                        imageUrl={ban_img}
                         altText="BAN"
                         title="word from the founder of"
                         subtitle="ENSEMDOCS"
@@ -30,7 +41,7 @@ const Home=()=>{
                      />
                      <Event
                         active={false}
-                        imageUrl={process.env.PUBLIC_URL + "/assets/images/ban_img.jpg"}
+                        imageUrl={ban_img}
                         altText="BAN"
                         title="Progress & Success"
                         subtitle="c u r r e n c y"
@@ -49,7 +60,7 @@ const Home=()=>{
            </div>
         </header>
         <Abouthome
-          imageUrl={"/assets/images/about.png"}
+          imageUrl={aboutus}
           altText="ABOUT"
           title="ABOUT US"
           description="Our website is designed to connect students from ENSEM and beyond, enabling them to share their internship journey with fellow students, professionals, and potential employers. We understand the significance of internships in shaping a student's professional growth and the importance of access to valuable resources. Therefore, we have created this platform to make it easier for students to showcase their skills, projects, and accomplishments to a wider audience."

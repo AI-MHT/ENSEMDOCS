@@ -33,7 +33,7 @@ a{
 h1,h2,h3,h4,h5,h6{
     letter-spacing:0;
     font-weight:400;
-    position:relative;
+    position:righ;
     padding:0 0 10px 0;
     font-weight:400;
     line-height:normal;
@@ -230,20 +230,40 @@ button{
     font-size:40px;
     line-height:50px
 }
-.text-bg h1{
-    color:#050505;
-    font-size:66px;
-    line-height:70px;
-    padding-bottom:35px;
-    font-weight:600;
-    text-transform:uppercase
+.text-bg h1 {
+    color: #050505;
+    font-size: 51px;
+    line-height: 70px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left; /* Add this line to align the text to the left */
 }
+
 .text-bg p{
     line-height:28px;
     padding-bottom:50px;
     display:block;
     color:#1f1f1f;
     font-size:17px
+}
+@media only screen and (max-width: 768px) {
+    .text-bg span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text-bg h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 20px;
+    }
+
+    .text-bg p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
 }
 .text-bg .read_more{
     max-width:200px
@@ -261,7 +281,7 @@ button{
     display:none
 }
 #banner1 a.carousel-control-prev{
-    left:26%;
+    left:20%;
     position:absolute
 }
 #banner1 a.carousel-control-next{
@@ -278,8 +298,18 @@ button{
     justify-content:center;
     color:#7d0056;
     border:#7d0056 solid 1px;
-    top:79%;
+    top:100%;
     border-radius:41px
+}
+@media only screen and (max-width: 996px) {
+    #banner1 a.carousel-control-prev{
+        left:33%;
+        position:absolute
+    }
+    #banner1 a.carousel-control-next{
+        left:55%;
+        position:absolute
+    }
 }
 #banner1 .carousel-control-next:focus,#banner1 .carousel-control-next:hover,#banner1 .carousel-control-prev:focus,#banner1 .carousel-control-prev:hover{
     color:#050505;

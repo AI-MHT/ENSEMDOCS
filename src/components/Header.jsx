@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/images/Logddo.png'
 const Header = () => {
   return (
     <div className="container-fluid">
@@ -8,9 +8,8 @@ const Header = () => {
           <nav className="navbar navbar-expand-md navbar-light">
             {/* Logo on the left */}
             <Link to="/" className="navbar-brand" rel="noopener noreferrer">
-              <img src="assets/images/logddo.png" alt="Logo" />
+              <img src={logo} alt="Logo" />
             </Link>
-
             <button
               className="navbar-toggler"
               type="button"
