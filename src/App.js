@@ -1,4 +1,3 @@
-import CVs from "./pages/CVs";
 import ReactGA from 'react-ga';  // Added this import
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -7,6 +6,8 @@ import Departement from "./pages/Departement";
 import ContactUs from "./pages/ContactUs";
 import Gld from "./pages/Gld";
 import Error from "./pages/Error";
+import CVs from "./pages/CVs";
+import { Route, Routes } from "react-router";
 
 function App() {
   ReactGA.initialize('G-32QL9DC11C');

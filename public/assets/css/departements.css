@@ -108,7 +108,7 @@ img{
     border-color:#fff!important;
     box-shadow:0 0 0 .2rem rgba(255,255,255,.25)
 }
-/* .navbar-form input{
+.navbar-form input{
     border:none!important
 }
 button{
@@ -156,14 +156,14 @@ button{
     float:none;
     margin:0 auto;
     display:flex */
-/* }
+}
 .navigation.navbar-dark .navbar-nav .active>.nav-link,.navigation.navbar-dark .navbar-nav .nav-link.active{
     color:#7d0056;
     border-bottom:#7d0056 solid 1px
 }
 .navigation.navbar-dark .navbar-nav .active>.nav-link::before,.navigation.navbar-dark .navbar-nav .nav-link.active::before{
     position:relative;
-    content:""; */
+    content:"";
     /* background:#7d0056;
     width:10px;
     height:10px;
@@ -172,35 +172,16 @@ button{
     float:none;
     margin:0 auto;
     display:flex */
-/* }
+}
 .navbar-expand-md .navbar-nav{
     padding-right:10px
-} */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 .le_co i{
     color:#7d0056!important
 }
 .header{
     width:100%;
-    padding:9px 8px;
+    padding:38px 30px;
     background:url(../images/ensemdoc.jpg);
     background-size:100% 100%;
     background-repeat:no-repeat
@@ -219,7 +200,7 @@ button{
     line-height:40px
 }
 .banner_main{
-    padding:35px 0 20px 0
+    padding:60px 0 20px 0
 }
 .text-bg{
     text-align:left
