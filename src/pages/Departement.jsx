@@ -3,6 +3,14 @@ import Header from "../components/Header"
 import Block from "../components/block";
 
 
+//import images
+import All from "../assets/images/all.png"
+import Gld from "../assets/images/gld.png"
+import Indus from "../assets/images/indus.png"
+import Elec from "../assets/images/electric.png"
+import Mec from "../assets/images/mec.png"
+
+
 const Departement=()=>{
     return(
         <div className="main-layout">
@@ -13,31 +21,31 @@ const Departement=()=>{
                 <section className="banner_main">
                     <div className="cards-list">
                         <Block
-                          imageUrl="assets/images/gld.jpg"
+                          imageUrl={Gld}
                           altText="GLD-LOGO"
                           title="genie logiciel et digitalisation"
                           linkTo="/Gld"
                         />
                         <Block
-                          imageUrl="assets/images/mec.jpg"
+                          imageUrl={Mec}
                           altText="MECANIQUE-LOGO"
                           title="genie mecanique"
-                          linkTo="/CVs"
+                          linkTo="/Mec"
                         />
                         <Block
-                          imageUrl="assets/images/electric.jpg"
+                          imageUrl={Elec}
                           altText="ELEC-LOGO"
                           title="genie electrique"
                           linkTo="/CVs"
                         />
                         <Block
-                          imageUrl="assets/images/indusss.jpg"
+                          imageUrl={Indus}
                           altText="INDUS-LOGO"
                           title="genie industriel"
                           linkTo="/CVs"
                         />
                         <Block
-                          imageUrl="assets/images/all.jpg"
+                          imageUrl={All}
                           altText="ALL-LOGO"
                           title="view all"
                           linkTo="/CVs"
