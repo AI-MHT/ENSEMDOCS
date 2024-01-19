@@ -99,6 +99,13 @@ body{
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
+@media only screen and (min-width: 770px) {
+    .navbar-brand img{
+        height: 65px;
+		width: 163px;
+
+    }
+}
 .navbar-toggler {
 	float: right;
 	border: none;

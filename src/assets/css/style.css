@@ -738,8 +738,8 @@ p{
 /* Add a media query for larger screens like tablets and laptops */
 @media screen and (min-width: 200px) {
     .card {
-        max-width: 165px; /* Adjust the maximum width for larger screens */
-        height:165px;
+        max-width: 148px; /* Adjust the maximum width for larger screens */
+        height:148px;
     }
    
 }
@@ -785,7 +785,7 @@ p{
 @media only screen and (max-width: 550px) {
     #demoFont {
         font-size:12px;
-        top: 26px; /* Adjust the top distance as needed */
+        top: 31px; /* Adjust the top distance as needed */
         left: 2px;
 
     }
