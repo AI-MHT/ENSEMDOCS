@@ -1,11 +1,3 @@
-import '../assets/css/bootstrap.min.css';
-import '../assets/css/header.css';
-
-import '../assets/css/style.css';
-import '../assets/css/stylec.css';
-
-import '../assets/css/footer.css';
-import '../assets/css/testimonial.css';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/Logddo.png'
 const Header = () => {

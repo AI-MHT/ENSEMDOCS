@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs";
 import Departement from "./pages/Departement";
 import ContactUs from "./pages/ContactUs";
 import Gld from "./pages/Gld";
+import Mec from "./pages/Mec";
 import Error from "./pages/Error";
 import CVs from "./pages/CVs";
 import { Route, Routes } from "react-router";
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Gld" element={<Gld />} />
+        <Route path="/Mec" element={<Mec />} />
         <Route path="/Departement" element={<Departement />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/About" element={<AboutUs />} />

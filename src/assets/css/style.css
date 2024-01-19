@@ -329,7 +329,7 @@ button{
 }
 .yellow{
     color:#3c032a;
-    font-size:17px;
+    font-size:29px;
     line-height:50px;
     font-weight:700
 }
@@ -738,15 +738,15 @@ p{
 /* Add a media query for larger screens like tablets and laptops */
 @media screen and (min-width: 200px) {
     .card {
-        max-width: 145px; /* Adjust the maximum width for larger screens */
-        height:145px;
+        max-width: 165px; /* Adjust the maximum width for larger screens */
+        height:165px;
     }
    
 }
 @media screen and (min-width: 450px) {
     .card {
-        max-width: 180px; /* Set maximum width for smaller screens */
-        height: 180px;
+        max-width: 190px; /* Set maximum width for smaller screens */
+        height: 190px;
     }
 }
 @media screen and (min-width: 550px) {
@@ -776,8 +776,21 @@ p{
     text-decoration:none solid #444;
     font-style:normal;
     font-variant:normal;
-    text-transform:capitalize
+    text-transform:capitalize;
+    /* Set the position properties */
+    position: relative; /* You can also use 'absolute' or 'fixed' based on your needs */
+    top: 12px; /* Adjust the top distance as needed */
+    left: 2px; /* Adjust the left distance as needed */
 }
+@media only screen and (max-width: 550px) {
+    #demoFont {
+        font-size:12px;
+        top: 26px; /* Adjust the top distance as needed */
+        left: 2px;
+
+    }
+}
+
 *{
     margin:0;
     padding:0;

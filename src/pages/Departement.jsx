@@ -30,7 +30,7 @@ const Departement=()=>{
                           imageUrl={Mec}
                           altText="MECANIQUE-LOGO"
                           title="genie mecanique"
-                          linkTo="/CVs"
+                          linkTo="/Mec"
                         />
                         <Block
                           imageUrl={Elec}
