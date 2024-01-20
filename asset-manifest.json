@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ENSEMDOCS/static/css/main.3a48b451.css",
-    "main.js": "/ENSEMDOCS/static/js/main.6d7ce46e.js",
-    "static/media/all.png": "/ENSEMDOCS/static/media/all.c55f3f1ee62f5bdc5ffb.png",
-    "static/media/gld.png": "/ENSEMDOCS/static/media/gld.8e3cf263e04a6a749e28.png",
-    "static/media/indus.png": "/ENSEMDOCS/static/media/indus.8e5b355d4eaf7e5d39ba.png",
-    "static/media/electric.png": "/ENSEMDOCS/static/media/electric.854a9046baf9439f748b.png",
-    "static/media/about.png": "/ENSEMDOCS/static/media/about.961c7f67f8488fa0f042.png",
-    "static/media/joe2024.jpg": "/ENSEMDOCS/static/media/joe2024.9985b8f4a6ca7e534c56.jpg",
-    "static/media/ban_img.jpg": "/ENSEMDOCS/static/media/ban_img.6c04b06107b26934d27a.jpg",
-    "static/media/ensemdocneon.jpg": "/ENSEMDOCS/static/media/ensemdocneon.5e66be82fc5b6b44235d.jpg",
-    "static/media/mec.png": "/ENSEMDOCS/static/media/mec.33a78bce7a182ef73f45.png",
-    "static/media/ensemdoc.jpg": "/ENSEMDOCS/static/media/ensemdoc.ba93e1f0e7eec992c150.jpg",
-    "static/media/Logddo.png": "/ENSEMDOCS/static/media/Logddo.579362eaccd71df30159.png",
-    "index.html": "/ENSEMDOCS/index.html",
-    "main.3a48b451.css.map": "/ENSEMDOCS/static/css/main.3a48b451.css.map",
-    "main.6d7ce46e.js.map": "/ENSEMDOCS/static/js/main.6d7ce46e.js.map"
+    "main.css": "/static/css/main.b611c76f.css",
+    "main.js": "/static/js/main.c25b98de.js",
+    "static/media/all.png": "/static/media/all.c55f3f1ee62f5bdc5ffb.png",
+    "static/media/gld.png": "/static/media/gld.8e3cf263e04a6a749e28.png",
+    "static/media/indus.png": "/static/media/indus.8e5b355d4eaf7e5d39ba.png",
+    "static/media/electric.png": "/static/media/electric.854a9046baf9439f748b.png",
+    "static/media/about.png": "/static/media/about.961c7f67f8488fa0f042.png",
+    "static/media/joe2024.jpg": "/static/media/joe2024.9985b8f4a6ca7e534c56.jpg",
+    "static/media/ban_img.jpg": "/static/media/ban_img.6c04b06107b26934d27a.jpg",
+    "static/media/ensemdocneon.jpg": "/static/media/ensemdocneon.5e66be82fc5b6b44235d.jpg",
+    "static/media/mec.png": "/static/media/mec.33a78bce7a182ef73f45.png",
+    "static/media/ensemdoc.jpg": "/static/media/ensemdoc.ba93e1f0e7eec992c150.jpg",
+    "static/media/Logddo.png": "/static/media/Logddo.579362eaccd71df30159.png",
+    "index.html": "/index.html",
+    "main.b611c76f.css.map": "/static/css/main.b611c76f.css.map",
+    "main.c25b98de.js.map": "/static/js/main.c25b98de.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a48b451.css",
-    "static/js/main.6d7ce46e.js"
+    "static/css/main.b611c76f.css",
+    "static/js/main.c25b98de.js"
   ]
 }
