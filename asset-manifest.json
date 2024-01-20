@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ENSEMDOCS/static/css/main.3a48b451.css",
+    "main.css": "/ENSEMDOCS/static/css/main.6ab9dea8.css",
     "main.js": "/ENSEMDOCS/static/js/main.befd8863.js",
     "static/media/all.png": "/ENSEMDOCS/static/media/all.c55f3f1ee62f5bdc5ffb.png",
     "static/media/gld.png": "/ENSEMDOCS/static/media/gld.8e3cf263e04a6a749e28.png",
@@ -14,11 +14,11 @@
     "static/media/ensemdoc.jpg": "/ENSEMDOCS/static/media/ensemdoc.ba93e1f0e7eec992c150.jpg",
     "static/media/Logddo.png": "/ENSEMDOCS/static/media/Logddo.579362eaccd71df30159.png",
     "index.html": "/ENSEMDOCS/index.html",
-    "main.3a48b451.css.map": "/ENSEMDOCS/static/css/main.3a48b451.css.map",
+    "main.6ab9dea8.css.map": "/ENSEMDOCS/static/css/main.6ab9dea8.css.map",
     "main.befd8863.js.map": "/ENSEMDOCS/static/js/main.befd8863.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a48b451.css",
+    "static/css/main.6ab9dea8.css",
     "static/js/main.befd8863.js"
   ]
 }
