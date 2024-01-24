@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
     padding:0 0 10px 0;
     font-weight:400;
     line-height:normal;
-    color:#fff;
+    color:#000000;
     margin:0
 }
 h1{
@@ -254,14 +254,14 @@ button{
     }
 
     .text-bg h1 {
-        font-size: 40px;
-        line-height: 50px;
-        padding-bottom: 20px;
+        font-size: 22px;
+        line-height: 38px;
+        padding-bottom: 0px;
     }
 
     .text-bg p {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 21px;
         padding-bottom: 30px;
     }
 }
@@ -800,7 +800,7 @@ body{
     font-family:Inter,sans-serif
 }
 table tr th{
-    background:#337ab7;
+    background:#7d0056;
     color:#fff;
     text-align:left;
     vertical-align:center

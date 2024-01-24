@@ -1,5 +1,9 @@
 import Header from "../components/Header"
 import Contact from "../components/Contact";
+import Infocall from "../components/Infocall";
+
+import '../assets/css/infocall.css';
+
 
 
 const ContactUs=()=>{
@@ -10,6 +14,7 @@ const ContactUs=()=>{
                <div className="white_bg">
                <Header/>
                <Contact/>
+               <Infocall/>
                </div>
             </div>
          </header>

@@ -7,15 +7,15 @@ const StudentFeed = () => {
     <section className="testimonial text-center">
       <div className="container">
         <div className="heading white-heading">
-          Testimonial
+          Feedback
         </div>
         <div id="testimonial4" className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
               <div className="testimonial4_slide">
                 <img src="https://ai-mht.github.io/Portfolio/assets/images/my-avatar.PNG" className="img-circle img-responsive" alt="Client 1" />
-                <p>Text Text Text Text Text Text text...</p>
-                <h4>Student 1</h4>
+                <h4>Aiman MOUHAT</h4>
+                <p>Text Text Text Text Text Text text...Text Text Text Text Text Text text...Text Text Text Text Text Text text...Text Text Text Text Text Text text...Text Text Text Text Text Text text...</p>
               </div>
             </div>
             <div className="carousel-item">

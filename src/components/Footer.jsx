@@ -17,12 +17,12 @@ const Footer=()=>{
                 <div className="col-md-4 col-sm-6 col-xs-12">
                   <ul className="social-icons">
                     <li>
-                      <Link className="facebook" to="https://web.facebook.com/mhamed.mouhat">
+                      <Link className="facebook" to="https://www.facebook.com/profile.php?id=61556007623113&mibextid=hu50Ix">
                         <i className="fa fa-facebook"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link className="instagram" to="https://www.instagram.com/aiman_mht">
+                      <Link className="instagram" to="https://www.instagram.com/ensemdocs">
                         <i className="fa fa-instagram"></i>
                       </Link>
                     </li>
@@ -32,7 +32,7 @@ const Footer=()=>{
                       </Link>
                     </li>
                     <li>
-                      <Link className="linkedin" to="https://ma.linkedin.com/in/aiman-mouhat-354a9a206">
+                      <Link className="linkedin" to="https://www.linkedin.com/company/ensemdocs/">
                         <i className="fa fa-linkedin"></i>
                       </Link>
                     </li>

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Abouthome = ({ imageUrl, altText, title, description }) => {
-  const fullImageUrl = process.env.PUBLIC_URL + imageUrl;
+  const fullImageUrl = imageUrl;
 
   return (
     <div className="about">

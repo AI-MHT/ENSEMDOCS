@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Block = ({ imageUrl, altText, title, linkTo }) => {
-  const imagePath = process.env.PUBLIC_URL + imageUrl;
+  const imagePath = imageUrl;
 
   return (
     <div className="card 1">
