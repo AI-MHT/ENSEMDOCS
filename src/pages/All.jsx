@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBDataTable } from 'mdbreact';
 import Header from "../components/Header";
-import data from "../datasets/mec.json"; // Import your JSON data file
+import data from "../datasets/alldata.json"; // Import your JSON data file
 
-const Mec = () => {
+const All = () => {
   const dataTable = {
     columns: [
       {
@@ -56,4 +56,4 @@ const Mec = () => {
   );
 }
 
-export default Mec;
+export default All;

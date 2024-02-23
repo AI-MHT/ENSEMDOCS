@@ -36,19 +36,19 @@ const Departement=()=>{
                           imageUrl={Elec}
                           altText="ELEC-LOGO"
                           title="genie electrique"
-                          linkTo="/CVs"
+                          linkTo="/Ge"
                         />
                         <Block
                           imageUrl={Indus}
                           altText="INDUS-LOGO"
                           title="genie industriel"
-                          linkTo="/CVs"
+                          linkTo="/Indus"
                         />
                         <Block
                           imageUrl={All}
                           altText="ALL-LOGO"
                           title="view all"
-                          linkTo="/CVs"
+                          linkTo="/All"
                         />
                       </div>
                   </section>

@@ -8,27 +8,6 @@ html{
     scroll-behavior:smooth
 }
 
-.Header-body {
-    background: #fff;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: #000;
-    font-size: 18px;
-    font-family: Roboto, sans-serif;
-    line-height: 1.80857;
-    font-weight: 400;
-}
-
-body{
-    background:#fff;
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    color:#000;
-    font-size:18px;
-    font-family:Roboto,sans-serif;
-    line-height:1.80857;
-    font-weight:400
-}
 @media only screen and (max-width: 548px) {
     body {
         font-size: 8px; /* Font size for mobile devices */

@@ -6,7 +6,7 @@ const Header = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-12">
-          <nav className="navbar navbar-expand-md navbar-light">
+          <nav className="navbar navbar-expand-md navbar-light Header-body">
             {/* Logo on the left */}
             <Link to="/" className="navbar-brand" rel="noopener noreferrer">
               <img src={logo} alt="Logo" />
