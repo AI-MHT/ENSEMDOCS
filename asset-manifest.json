@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.033575ab.css",
-    "main.js": "/static/js/main.1431c814.js",
+    "main.js": "/static/js/main.cea6e2f8.js",
     "static/media/ensemsport.jpg": "/static/media/ensemsport.6e07cab1014c5ffe5fbd.jpg",
     "static/media/aiman.png": "/static/media/aiman.25a606e27b3eaf4d46d6.png",
     "static/media/ramadan.png": "/static/media/ramadan.909793afc602a30f3ba5.png",
@@ -20,10 +20,10 @@
     "static/media/Logddo.png": "/static/media/Logddo.579362eaccd71df30159.png",
     "index.html": "/index.html",
     "main.033575ab.css.map": "/static/css/main.033575ab.css.map",
-    "main.1431c814.js.map": "/static/js/main.1431c814.js.map"
+    "main.cea6e2f8.js.map": "/static/js/main.cea6e2f8.js.map"
   },
   "entrypoints": [
     "static/css/main.033575ab.css",
-    "static/js/main.1431c814.js"
+    "static/js/main.cea6e2f8.js"
   ]
 }
