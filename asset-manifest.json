@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.63c47cb3.css",
-    "main.js": "/static/js/main.04cfb1c0.js",
+    "main.js": "/static/js/main.a77015e2.js",
     "static/media/ensemsport.jpg": "/static/media/ensemsport.6e07cab1014c5ffe5fbd.jpg",
-    "static/media/aiman.png": "/static/media/aiman.25a606e27b3eaf4d46d6.png",
     "static/media/ramadan.png": "/static/media/ramadan.909793afc602a30f3ba5.png",
     "static/media/simo.png": "/static/media/simo.f3bfb8a23c70d8fdeb39.png",
     "static/media/khalil.png": "/static/media/khalil.683481c9eb7c969164ec.png",
@@ -12,18 +11,20 @@
     "static/media/gld.png": "/static/media/gld.8e3cf263e04a6a749e28.png",
     "static/media/indus.png": "/static/media/indus.8e5b355d4eaf7e5d39ba.png",
     "static/media/electric.png": "/static/media/electric.854a9046baf9439f748b.png",
+    "static/media/aimht.jpg": "/static/media/aimht.61d842820ac699213495.jpg",
     "static/media/about.png": "/static/media/about.961c7f67f8488fa0f042.png",
     "static/media/ikram.jpg": "/static/media/ikram.326eb89a3d9b3e3f0e09.jpg",
     "static/media/ensemdocneon.jpg": "/static/media/ensemdocneon.5e66be82fc5b6b44235d.jpg",
+    "static/media/farouq.jpg": "/static/media/farouq.d4ccd8799439b143d1b0.jpg",
     "static/media/mec.png": "/static/media/mec.33a78bce7a182ef73f45.png",
     "static/media/ensemdoc.jpg": "/static/media/ensemdoc.ba93e1f0e7eec992c150.jpg",
     "static/media/Logddo.png": "/static/media/Logddo.579362eaccd71df30159.png",
     "index.html": "/index.html",
     "main.63c47cb3.css.map": "/static/css/main.63c47cb3.css.map",
-    "main.04cfb1c0.js.map": "/static/js/main.04cfb1c0.js.map"
+    "main.a77015e2.js.map": "/static/js/main.a77015e2.js.map"
   },
   "entrypoints": [
     "static/css/main.63c47cb3.css",
-    "static/js/main.04cfb1c0.js"
+    "static/js/main.a77015e2.js"
   ]
 }
