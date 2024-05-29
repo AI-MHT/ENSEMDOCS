@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.63c47cb3.css",
-    "main.js": "/static/js/main.a77015e2.js",
+    "main.css": "/static/css/main.4242aa6e.css",
+    "main.js": "/static/js/main.623f5fd1.js",
     "static/media/ensemsport.jpg": "/static/media/ensemsport.6e07cab1014c5ffe5fbd.jpg",
     "static/media/ramadan.png": "/static/media/ramadan.909793afc602a30f3ba5.png",
     "static/media/simo.png": "/static/media/simo.f3bfb8a23c70d8fdeb39.png",
@@ -18,13 +18,14 @@
     "static/media/farouq.jpg": "/static/media/farouq.d4ccd8799439b143d1b0.jpg",
     "static/media/mec.png": "/static/media/mec.33a78bce7a182ef73f45.png",
     "static/media/ensemdoc.jpg": "/static/media/ensemdoc.ba93e1f0e7eec992c150.jpg",
+    "static/media/Loddgo.png": "/static/media/Loddgo.579362eaccd71df30159.png",
     "static/media/Logddo.png": "/static/media/Logddo.579362eaccd71df30159.png",
     "index.html": "/index.html",
-    "main.63c47cb3.css.map": "/static/css/main.63c47cb3.css.map",
-    "main.a77015e2.js.map": "/static/js/main.a77015e2.js.map"
+    "main.4242aa6e.css.map": "/static/css/main.4242aa6e.css.map",
+    "main.623f5fd1.js.map": "/static/js/main.623f5fd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c47cb3.css",
-    "static/js/main.a77015e2.js"
+    "static/css/main.4242aa6e.css",
+    "static/js/main.623f5fd1.js"
   ]
 }
